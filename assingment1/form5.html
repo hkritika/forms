@@ -1,0 +1,296 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="dist/css/bootstrap.css">
+		<style>
+				body{
+					background: rgb(248, 248, 248);
+				}
+				.border{
+					border-top:1px solid red;
+					border-bottom:2px solid green;
+					padding-top:5px;
+					background:light grey;
+				}
+				
+				.border ul li{
+					display:inline;
+					color:black;
+				}
+				
+				.border ul li a{
+					text:decoration:underline;
+					padding:2px;
+					text-weight:bold;
+					color:blue;
+					font-size:14px;
+				}
+				
+				.size{
+					font-size:40px;
+					fant-family:Times New Roman;
+				}
+				
+				.white{
+					background:white;
+				}
+				
+				@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+	
+  }
+}
+	.navbar{
+		border-bottom:2px solid green;
+		border-top:1px solid red;
+		margin-top:3px;
+	}	
+
+
+	.box{
+		
+		padding:4px;
+		height:50px;
+		
+	}
+	
+	fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+    }
+	
+	
+	.madidatory{
+		margin-left:-15px; 
+		margin-top:5px; 
+		font-size:30; 
+		color:red;
+	}
+	
+		</style>
+	</head>
+	<body>
+	<div class="nav-border">
+		<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>    
+  </div>
+  <div class="navbar-collapse collapse">
+   
+    <ul class="nav navbar-nav navbar-center">
+		<li class="text"><a href="home.html"><u> Home </u></a></li>
+		<li class="text"><a href="form1.html" ><u> Form1 </u></a></li>
+		<li class="text"><a href="form2.html"><u> Form2 </u></a></li>
+		<li class="text"><a href="form3.html"><u> Form3 </u></a></li>
+		<li class="text"><a href="form4.html"><u> Form4 </u></a></li>
+		<li class="text"><a href="form5.html" id="activemenu" ><u> Form5 </u></a></li>
+		<li class="text"><a href="form6.html"><u> Form6 </u></a></li>
+		<li class="text"><a href="form7.html"><u> Form7 </u></a></li>
+		<li class="text"><a href="form8.html"><u> Form8 </u></a></li>
+    </ul>
+    
+  </div>
+</nav>
+
+</div>		
+	
+		
+		
+		
+				
+		<h3 class="text-center"> Form  </h3>			
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<div class="panel panel-default">
+						
+						<div class="panel-body" style="background:skyblue">
+							<div class="row form-group">
+								<div class="col-sm-4">
+									<label>First Name</label>
+								</div>
+								<div class="col-sm-4">
+									<input type="text" class="form-control" >
+								</div>
+								
+								<div class="col-sm-1 madidatory">
+									*
+								</div>
+							</div><!--endrow-->
+							
+							<div class="row form-group">
+								<div class="col-sm-4">
+									<label>Last Name</label>
+								</div>
+								<div class="col-sm-4">
+									<input type="text" class="form-control" >
+								</div>
+							</div><!--endrow-->
+							
+							
+							<div class="row form-group">
+								<div class="col-sm-4">
+									<label>Birthday</label>
+								</div>
+								<div class="col-sm-8">
+								<div class="row">
+									<div class="col-sm-4">
+										 <select class="form-control"  > 
+											<option>1</option>       
+											<option>2</option>       
+											<option>3</option>       
+											<option>4</option>       
+											<option>5</option>       
+											<option>6</option>       
+											<option>7</option>       
+											<option>8</option>       
+											<option>9</option>       
+											<option>10</option>       
+											<option>11</option>       
+											<option>12</option>       
+											<option>13</option>       
+											<option>14</option>       
+											<option>15</option>       
+											<option>16</option>       
+											<option>17</option>       
+											<option>18</option>       
+											<option>19</option>       
+											<option>20</option>       
+											<option>21</option>       
+											<option>22</option>       
+											<option>23</option>       
+											<option>24</option>       
+											<option>25</option>       
+											<option>26</option>       
+											<option>27</option>       
+											<option>28</option>       
+											<option>29</option>       
+											<option>30</option>       
+											<option>31</option>       
+										 </select> 
+									</div>
+									<div class="col-sm-4">
+										<select class="form-control"> 
+											<option> Month </option>
+										</select>
+									</div>
+									<div class="col-sm-4">
+										<select class="form-control"> 
+											<option> Year </option>
+										</select>
+									</div>
+									</div>
+								</div>
+							</div><!--endrow-->
+							
+							
+							
+							
+							
+							<div class="row form-group">
+								<div class="col-sm-4">
+									<label>User name</label>
+								</div>
+								<div class="col-sm-4">
+									<input type="text" class="form-control" >
+								</div>
+								
+								<div class="col-sm-1 madidatory">
+									*
+								</div>
+							</div><!--endrow-->
+							
+							
+							<div class="row form-group">
+								<div class="col-sm-4">
+									<label>Email Id</label>
+								</div>
+								<div class="col-sm-4">
+									<input type="email" class="form-control" >
+								</div>
+							</div><!--endrow-->
+							
+							
+							<div class="row form-group">
+								<div class="col-sm-4">
+									<label>Website</label>
+								</div>
+								<div class="col-sm-4">
+									<input type="text" class="form-control" >
+								</div>
+							</div><!--endrow-->
+							
+							
+							<div class="row form-group">
+								<div class="col-sm-4">
+									<label>Password</label>
+								</div>
+								<div class="col-sm-4">
+									<input type="password" class="form-control" >
+								</div>
+								<div class="col-sm-1 madidatory">
+									*
+								</div>
+							</div><!--endrow-->
+							
+							<div class="row form-group">
+								<div class="col-sm-4">
+									<label>Re-Password</label>
+								</div>
+								<div class="col-sm-4">
+									<input type="password" class="form-control" >
+								</div>
+								
+								<div class="col-sm-1 madidatory">
+									*
+								</div>
+							</div><!--endrow-->
+							
+							
+							<div class="row form-group">
+								<div class="col-sm-4">
+									<div class="checkbox" style="margin-left:30px; margin-bottom:5px;">
+										<input type="checkbox" value="" style="margin-bottom:30px;">
+									</div>
+								</div>
+								<div class="col-sm-4">
+									I agree to T & C
+								</div>
+								
+								
+							</div><!--endrow-->
+							</div>
+							
+							
+							
+						
+						<div class="panel-footer text-center"  style="background:green">
+						
+							<button class="btn btn-default"> Login </button>
+						</div>
+					</div><!--endpanel-->
+				<div class="col-sm-2"></div>
+			</div><!--endrow-->
+		</div><!--endcontainer-->
+		
+	</body>
+</html>
